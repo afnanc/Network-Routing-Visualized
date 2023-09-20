@@ -1,0 +1,79 @@
+body>* {
+  margin-top: 5px;
+}
+
+button {
+  padding: 8px 10px;
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #008CBA;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: inset 0em 0em 0em 10em rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font: 14px helvetica neue, helvetica, arial, sans-serif;
+  background-color: lightcyan
+}
+
+#cy {
+  height: 500px;
+  width: 500px;
+  display: inline-block;
+  background: rgba(256, 256, 256, 0.3);
+  border-radius: 10px;
+  border: 1px gray solid;
+}
+
+#addNode {
+  z-index: 10;
+}
+
+select {
+  width: 11%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input {
+  width: 12%;
+  background-color: #f1f1f1;
+  padding: 8px 10px;
+  border: none;
+}
+
+#distanceTable {
+  margin: 10px;
+  border-collapse: collapse;
+  display: inline-block;
+}
+
+#distanceTable th,
+#distanceTable td {
+  padding: 7px 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#distanceTable th, 
+#distanceTable td:first-child {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+}
+
+#graphContainer{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
